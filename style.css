@@ -13,3 +13,41 @@
     height: 98%;
     object-fit: cover;
   }
+
+
+   /*kontaks*/
+   
+       /* Styling for the Contact Box */
+       .contact-box {
+        background-color: #f7f7f7;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        max-width: 400px;
+        margin: 0 auto;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Styling for the heading */
+    .contact-box h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    /* Styling for the form inputs and button */
+    .contact-box input[type="text"],
+    .contact-box input[type="email"],
+    .contact-box textarea,
+    .contact-box button {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .contact-box button {
+        background-color: #007BFF;
+        color: #fff;
+        cursor: pointer;
+    }
